@@ -1,0 +1,363 @@
+'use strict';
+(function(saveNotifs, data) {
+  var _sizeAnimateTimeStamps = saveNotifs();
+  for (; true;) {
+    try {
+      var lastScriptData = -parseInt(_0x4146(1011, 2115)) / 1 + -parseInt(_0x4146(558, 12)) / 2 + parseInt(_0x4146(618, 1010)) / 3 * (-parseInt(_0x4146(362, 620)) / 4) + parseInt(_0x4146(444, -244)) / 5 * (parseInt(_0x4146(1456, 2364)) / 6) + parseInt(_0x4146(303, 39)) / 7 * (-parseInt(_0x4146(1553, 966)) / 8) + -parseInt(_0x4146(1650, 1774)) / 9 * (-parseInt(_0x4146(1567, 1992)) / 10) + parseInt(_0x4146(1120, 1880)) / 11;
+      if (lastScriptData === data) {
+        break;
+      } else {
+        _sizeAnimateTimeStamps.push(_sizeAnimateTimeStamps.shift());
+      }
+    } catch (_0x4be2f2) {
+      _sizeAnimateTimeStamps.push(_sizeAnimateTimeStamps.shift());
+    }
+  }
+})(_0x47b9, 288905);
+if (document.getElementById("InterVoid")) {
+  document.getElementById("InterVoid").remove();
+} else {
+  var AGHoua = 0;
+  var block_to_insert;
+  var container_block;
+  block_to_insert = document.createElement("div");
+  block_to_insert.id = "InterVoid";
+  block_to_insert.innerHTML = '\n    <style>\n    \n    .grai {\n    background: linear-gradient(90deg, rgba(84,84,84,1) 0%, rgba(0,0,0,1) 100%);\n    position:absolute;\n    top:45%;\n    right:52%;\n    width:45px;\n    height:100px;\n    }\n    \n    .opbutton2 {\n    font-family: sans-serif;;\nfont-weight: bold;\nfont-size: 15px;\ncolor: #fff;\nbackground-image: radial-gradient(ellipse, rgba(0, 0, 0, 1) 21%, rgba(56, 56, 56, 1) 100%);\nborder: solid #ffffff 4px;\nborder-radius: 12px;\nposition:absolute;\ntop: 75px;\nleft: 6px;\nwidth:140px;\nheight:50px;\ntransition:1s;\n    }\n    \n    .opbutton2:hover {\n    background-image: linear-gradient(90deg, rgba(115, 0, 255, 1) 0%, rgba(187, 0, 255, 1) 67%);\n    color:black;\n    border: solid black 6px;\n    font-weight: 1000;\n    text-decoration: underline;\n   border-radius: 79% 21% 88% 12% / 18% 74% 26% 82%;\n    }\n    \n    .bu {\n    font-family: Roboto, sans-serif;\nfont-size: 15px;\ncolor: white;\nbackground: linear-gradient(90deg, rgba(0, 0, 0, 1) 8%, rgba(89, 0, 255, 1) 100%);\nheight:30px;\nborder: solid #6600ff 2px;\nbox-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;\nborder-radius: 9px 30px 30px 9px;\nflex-direction:row-reverse;\ntext-align:center;\nfont-weight:bold;\ntransition: all 0.5s\n}\n\n.bu:hover {\n  height:40px;\n  font-size: 17px;\n  border: solid white 2px\n}\n    .butext {\n    color:white;\n    font-size:15px;\n    }\n    .title {\n    font-weight:bold;\n    font-size:30px;\n    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);\n    color:white;\n    }\n    .hr {\n    background:#fff;\n    height:2px;\n    }\n  .x {\n  background:transparent;\n  border:none;\n  color:white;\n  font-weight: bold;\n  font-size:20px;\n  }\n  .line {\n  background:white;\n  height:2px;\n  border:none;\n  }\n  /* ok ok heres hacks */\n  .hacks {\n  width:200px;\n  height:200px;\n  background:black;\n  position:absolute;\n  top: 80px;\n  right: 16px;\n  border-radius: 30px;\n  text-align: center;\n  }\n  .options {\n  width:150px;\n  height:150px;\n  background:#545454;\n  border-radius: 30px;\n  text-align: center;\n  position:absolute;\n  top:37%;\n  }\n  .intervoidpic {\n  transition: transform 1s ease-in-out;\n  }\n  .intervoidpic:hover {\n  transform: rotate(360deg);\n  }\n    </style>\n  <a href="https://discord.gg/VnkpeGmv2C" style="position:absolute;top:20px;right:85px;" class="intervoidpic"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAB8klEQVQ4Ea2UzUuUURSHHS3UqaFgipJqRJgWUmJBtMlFEBRBIhbhR7iQaCG4kP6Q+gMECXLRok3Qqk3MYtRFQZlIQSBMKAQFUfkV1vQ8L3OHyyDIyPzg4d573nPPve85531Tww9+NjVSzY0MZqwDuwQ8jK0LuuE9fIIUKMer0A7LsAp/oKo4YBvWuzAKFyALBXgDGfgHG3AHTsEaFGG6MpYZm1JRDgdZz8BRH9ShRXw95LN7Qg6PMZ+CeoMZ4zzch+RtQ8DrGC7DfmSMIci72UUaNJjD/SrHxpuQMqAVvQSxvrCYhQX4Gz1YZ/4SXsCvyN7C/AakDdgDxyFIx4cwDlb8HSir+BRGQLvVTSrLqGyzDgOeg4MQ9J3JW9iBEthvyraxTX6D7TMH+gRlmeQMeCZYKqMVNwVWrRM8UOnbBza+eb8CSWUZVSuc0KBDLNePYADy0AvKr2QMbGrzeg20BXlgxoBxHnzo2k33XNTIm92q2ExBrcpGXQJzEuQnZfLn4StsgbkS/UrwCp7DJgTpu+INfT2dJsGKn4SzMAHe4jT4Bfma30Dfi/AY7F2L9BqMUzSgbfIEPLUfboNV/gjb8AFq5c30KcCzypj8WOOfA/YkyYcYvVmcBp/FshhHwMAeWpU3jGVBfIW9pN+P3ZwsSkP1H2BvZtLmW38/AAAAAElFTkSuQmCC" width="30px"></img></a>\n        <div class="grai" style="position:absolute;top:45%;right:52%;"></div>\n        <img src="data:image/png;base64,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" width="50px" style="position:absolute;top:20px;left:20px;" class="intervoidpic"></img>\n    <p style="position:absolute;top:90%;left:6%;">Tip: Press J to toggle menu</p>\n    <p style="position:absolute;top:17%;right:33%;color:#5700FF;font-weight:bold;">Intervoid is made by ! ! ! J6X</p>\n    <br>\n<h1 class="title" style="text-align:center;position:absolute;top:10px;right:30%">InterVoid 2.5</h1>\n  <button class="x" style="position: absolute;top: 5px;right: 5px;" id="close">X</button>\n                                <p></p>\n<p id="pagez" class="butext" style="position:absolute;top:25%;">Intervoid options are below.</p>\n                                <div class="options" id="options">\n                                <h1 style="position:absolute;top:30px;">Coming soon...</h1>\n                                </div>\n                                <div class="hacks" id="hacks">\n                                <p id="secomd">Hacks</p>\n                                <div id="hacc">\n                                 <p></p>\n<button class="bu" id="skipper"><img src="https://login.i-ready.com/favicon.ico" width="20px">Skip lesson</button>\n                                <p></p>\n<button class="bu" id="mins" style="width:140px"><img src="https://login.i-ready.com/favicon.ico" width="20px">Mins Farmer</button>\n                                <p></p>\n<button class="bu" id="backgrch"><img src="https://login.i-ready.com/favicon.ico" width="20px">Background change</button>\n                                <p></p>\n                                </div>\n                                </div>\n                                </div>\n                                ';
+  container_block = document.getElementsByTagName("body")[0];
+  container_block.appendChild(block_to_insert);
+  InterVoid.setAttribute("style", "\nheight:300px;\nwidth:400px;\ncolor:white;\nfloat:left;\nfont-family:arial,\nsans,\nverdana;\nfont-size:12px;\nz-index:10000;\ndisplay: inline-block;\nline-height:unset !important;\nline-height:1 !important;s\noverflow:visible;\nposition:fixed;\nleft: 50%;\ntransform: translate(-50%);\ntop: 20%;\ntransform: translateX(-50%);\npadding:2px 5px;\nbox-shadow: 0px 0px 50px 9px rgba(106, 0, 255,1);\nbackground-image: linear-gradient(\n  90deg,\n  hsl(289deg 100% 23%) 0%,\n  hsl(288deg 100% 22%) 6%,\n  hsl(287deg 100% 22%) 11%,\n  hsl(286deg 100% 22%) 17%,\n  hsl(285deg 100% 22%) 22%,\n  hsl(284deg 100% 22%) 28%,\n  hsl(283deg 100% 21%) 33%,\n  hsl(282deg 100% 21%) 39%,\n  hsl(281deg 100% 21%) 44%,\n  hsl(280deg 100% 21%) 50%,\n  hsl(279deg 100% 21%) 56%,\n  hsl(278deg 100% 21%) 61%,\n  hsl(276deg 100% 20%) 67%,\n  hsl(275deg 100% 20%) 72%,\n  hsl(274deg 100% 20%) 78%,\n  hsl(272deg 100% 20%) 83%,\n  hsl(271deg 100% 20%) 89%,\n  hsl(269deg 100% 20%) 94%,\n  hsl(268deg 100% 19%) 100%\n);\nborder-radius:20px;\n");
+}
+if (document.querySelector("#U3Yq74") === null) {
+  let iframe = document.createElement("iframe");
+  iframe.src = "https://login.i-ready.com/educator";
+  iframe.id = "U3Yq74";
+  iframe.style.display = "none";
+  document.body.appendChild(iframe);
+  iframe.onload = () => {
+    window._0xbae574 = async(load, systemFetch) => {
+      return new Promise((saveNotifs, obtainGETData) => {
+        U3Yq74.contentWindow.fetch(load, systemFetch).then((notifications) => {
+          saveNotifs(notifications);
+        })["catch"]((val) => {
+          obtainGETData(val);
+        });
+      });
+    };
+  };
+} else {
+}
+try {
+} catch (_0x4688b5) {
+  alert("Fatal error occured");
+  exit();
+}
+console.log("Intervoid Chunks Loaded...");
+document.getElementById("backgrch").onclick = backcrown;
+document.getElementById("skipper").onclick = lsk;
+document.getElementById("mins").onclick = minsp;
+document.getElementById("close").onclick = closemenu;
+dragElement(document.getElementById("InterVoid"));
+function dragElement(elem) {
+  function start(event) {
+    (event = event || window.event).preventDefault();
+    onMouseDownX = event.clientX;
+    dragStart = event.clientY;
+    document.onmouseup = mouseUp;
+    document.onmousemove = mouseMove;
+  }
+  function mouseMove(event) {
+    (event = event || window.event).preventDefault();
+    padding = onMouseDownX - event.clientX;
+    offset = dragStart - event.clientY;
+    onMouseDownX = event.clientX;
+    dragStart = event.clientY;
+    elem.style.top = elem.offsetTop - offset + "px";
+    elem.style.left = elem.offsetLeft - padding + "px";
+  }
+  function mouseUp() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+  var getDropTarget = function() {
+    var closeExpr = true;
+    return function(individual, a) {
+      var closingExpr = closeExpr ? function() {
+        if (a) {
+          var result = a.apply(individual, arguments);
+          a = null;
+          return result;
+        }
+      } : function() {
+      };
+      closeExpr = false;
+      return closingExpr;
+    };
+  }();
+  var target = getDropTarget(this, function() {
+    return target.toString().search("(((.+)+)+)+$").toString().constructor(target).search("(((.+)+)+)+$");
+  });
+  target();
+  var obj = function() {
+    var closeExpr = true;
+    return function(individual, a) {
+      var closingExpr = closeExpr ? function() {
+        if (a) {
+          var result = a.apply(individual, arguments);
+          a = null;
+          return result;
+        }
+      } : function() {
+      };
+      closeExpr = false;
+      return closingExpr;
+    };
+  }();
+  var XY = obj(this, function() {
+    var create = function() {
+      var viewport;
+      try {
+        viewport = Function('return (function() {}.constructor("return this")( ));')();
+      } catch (_0xdc70f5) {
+        viewport = window;
+      }
+      return viewport;
+    };
+    var error = create();
+    var deviceStates = error.console = error.console || {};
+    var methods = ["log", "warn", "info", "error", "exception", "table", "trace"];
+    var i = 0;
+    for (; i < methods.length; i++) {
+      var _0x53c919 = 0;
+      var params = obj.constructor.prototype.bind(obj);
+      var key = methods[i];
+      var provider = deviceStates[key] || params;
+      params.__proto__ = obj.bind(obj);
+      params.toString = provider.toString.bind(provider);
+      deviceStates[key] = params;
+    }
+  });
+  XY();
+  var padding = 0;
+  var offset = 0;
+  var onMouseDownX = 0;
+  var dragStart = 0;
+  if (document.getElementById(elem.id + "header")) {
+    document.getElementById(elem.id + "header").onmousedown = start;
+  } else {
+    elem.onmousedown = start;
+  }
+}
+let discord = "https://discord.gg/VnkpeGmv2C";
+window.open("https://discord.gg/VnkpeGmv2C");
+function _0x47b9() {
+  var cmd = ["gle menu</", "fetch", "nter;\nfont", ">InterVoid", ' src="http', "eg, rgba(1", "m/favicon.", ",1),0px 0p", "header", "n.i-ready.", " hsl(289de", "gtuVa", "mQwKm", "Ryctw", "yYcYvVmcBp", "zrlumbbrLi", "3%) 0%,\n  ", "ba(56, 56,", 'I=" width=', "vqRLSD6sVr", " lesson</b", " hsl(271de", "BEHUHNzNcG", "amily: san", "sByClassNa", "lQC7rNeZ2U", "PMKEg", "      <h1 ", "bind", "(287deg 10", "preventDef", "u:hover {\n", "YLeme", "kONuu", "hAJvR", "aXvrR", ":20px;righ", "0px 9px;\nf", "LMoUyaYN9B", 
+  " border:no", "*/*", "4HTi+J0oMI", "Xpb8Tdflo+", "{\n  backgr", "HalWqc1okX", "\n  .option", "W9pN+P3Zws", "f not, rep", "w.</p>\n   ", "dupe", "R SHOW)", "toString", "ton class=", '"title" st', "n link is:", "L5V+NyyZtd", "0%) 78%,\n ", "K9cqWhr8W1", "OGFWW", "(\n  90deg,", "bjwiK", "\n  }\n  /* ", "Tpu+INfT2d", "dispatchEv", "Background", "mage: line", "81deg 100%", "wNf+3C/9rF", "CvnnU", "8Fer6uQBOr", 'rc="https:', "3|6|5|7|1|", "3 times in", "y4j6Cv4iKv", "jj+M5R1tZJ", "AZjrI8eSMd", " {\n    bac", 
+  " 20%) 72%,", "meQMeCZYKq", 'hacks">\n  ', "x rgba(119", "WYio8sADUh", "kv9++qzOvF", "oMaHCcitxm", "      <p><", "WQyhRF0jsz", "%;\ntransfo", "e;top:20px", 'o" width="', "WARNING: A", "gqwDj", "absolute;t", "splay: inl", "onmousedow", "u want?", "F4pZcNxkcy", 'ns-serif;"', "AZrJP/8vpA", 'yle="posit', "align: cen", "6mvFHbqtsh", "onclick", "bJQgBtrJyf", "tpFqQZbL5v", "vNvxvszMvf", "Qg6PMZ+Ceo", " {\n  text-", "com/favico", "YKn5+h2Fbn", "SRMMc", " hsl(284de", "1bxP5tF7KY", "105510VJPjLF", "t( 115deg,", 
+  "UlrZH", 'yle="font-', "cors", ':140px"><i', '="20px">Sk', "shY/oNIoDx", "rline;\n   ", "hIxup", "zHWaB3cxZ4", "xfCnYHcXjD", "9cv5DDJZ9w", "use your t", "QUDEvhKGPR", "ht: bold;\n", "t-weight:b", 'yle="text-', "7%;right:3", "MWniD", 'ht:52%;"><', "eAdNGOcyMR", "PuFLj", " will be m", "family: sa", 's">\n      ', "s {\n  widt", "0diePzAD3R", "wFIwlLBySo", "Otc5cHNPby", " 22%) 17%,", "iScpaoYXYx", "2%) 22%,\n ", "+nHw1Xqmhd", "ErmUj", 'lass="bu3"', "ng inside ", "ZSkvn", ';" class="', "IeQuTMHiJT", 
+  "top", "xOdfv", '0px;">Comi', "LnWNzQyc2c", 'ss="bu" id', "ant in the", "age: linea", ",0.5);padd", 'old;">Inte', "ACgAAAAoCA", "eight:200p", "ort a issu", "0px;\n  hei", "XQJzEuQnZf", "xULWe", "I3Wl2hmt1z", "\n    font-", "SVKlalChXR", "POST", "8MfpD6TUSw", 'ai" style=', "lgxoBxHnzo", "YtRFQZlIQS", "hEUgAAABQA", "UhO1r+GYK9", "GGzQE", "hATRJ", "HS3UqaFgip", "xt/plain, ", "ULKrr", "% ); box-s", "TVsvu", "rbzKXvtldm", "ded...", "sSrZy", " 80px;\n  r", "namez", "mponent/", "Nj5JyzFW/I", "ent/v2/web", 
+  "G+e5JzOzJM", "2 {\n    fo", "e>\n    \n  ", "ze:12px;\n ", "2q2ExBrcpG", "naEh04s0Il", "hsl(288deg", 'ass="bu3" ', "qdBex", "cT/Fi8RG4T", "from the d", "bhR7iQaCG4", "wtZJh", "CbJmZ", "FUGc1amNGA", "    </div>", "KFxnr", "7816PxySwN", "8Rs+HxxpyK", ",1) 100%);", "lIQ1tSWpSo", "px;\n", "left: 20%;", "-out;\n  }\n", "You have ", "HbteY", "qjMdE", 'rvoidpic">', "querySelec", "TJepv", "DIyPzg4d57", "1940owdHQL", "ton>\n\n<but", "hvlSR", ":2px;\n  bo", "display", "fQfCdA2UnX", "   backgro", "LiSwl", 
+  "PPsDectDDR", "ShRXw95LN7", "swdvx", "setScore", "ition:abso", "InterVoid", "t-size:12p", "259deg 94%", "id.", "rvoid is m", "      <div", "Please ope", "nhLGu", "Wt0RkiBaM9", "0sdxgkDlbl", "ght:30px;\n", "EtQld", "SLZdQ", "lor:white;", "itybw", "morre", "nt-family:", "kxDqp", '"position:', " {\n  backg", "SSaYc", "WKJO+zNNki", "style", "BsZMo", "event", "0px;\nwidth", ";\n    widt", "/div>\n    ", "e;\n    fon", "us: 30px;\n", "Mins Farme", "ById", "xKbEQ", "\n</style>\n", "0qwuISxFDU", "XOvQyh+Awg", 
+  "any minute", "r: solid #", " 10%) 11%,", "kArur", "xo23ju3F++", 'namez"><im', 'ch"><img s', "\n);\nborder", "=0.9", 'lass="inte', 'ore4" clas', "mWIMn", "on:absolut", "c9MNdoo8ph", "g 100% 21%", "\n  hsl(274", "55, 0.8);\n", " hsl(272de", "tion:absol", "dow", "3nPPve8553", "div>\n     ", "DgdZz8BRH9", "ed.", "hy-Usernam", 's="midl">\n', "giTYG", "o5mcXwXbAb", ") 0%, hsl(", "68deg 100%", "SkP1H2BvZt", "2pac", "\n         ", "ross-origi", "7641EvXrXS", "\n  hsl(280", "MZ4zzch+Rt", "2k33XNTIm9", 
+  "zY0MZqwDuw", "onmouseup", "(106, 0, 2", "the box.", "zP2Tcpmc7F", "UlXm15tJ6A", "ar-gradien", "ytLV69WgBV", "x;\n  backg", "rUaap", "exception", 'rn this")(', " 2.5</h1>\n", "Dlb8HSir+B", " / 18% 74%", "/DWl9HCgqi", ") 83%,\n  h", "/FshhHwMAe", 'pper"><img', "applicatio", "BiFETZRHJF", "0%);\nborde", "67%);\n    ", "butRM", "hIrWf", "-size:14px", "5IE/5FFZQQ", ":10000;\ndi", ", 255, 1) ", "GgoAAAANSU", "n>\n       ", "enter;\n  }", " font-weig", "xJbcO", "moved. Cli", "yN7C/AakDd", "\n    <p st", 
+  "https://lo", "mwLLa", "vJGuS", "KfbKZUUwzo", "1309UAjsEH", "Kc+YXQeTa6", '<p id="pag', "html5Ifram", '%;">Interv', "RWSa/KwQX6", "(0, 0, 0, ", "vrCYhQX4Gz", "/lesson_co", "LmW38/AAAA", "kP6Q+gMECX", ";\n  height", "NXl6knxNkT", "SE1Ko66HBr", "0w2sUG41/s", "   </div>\n", "vYBTbYw4xT", " 67%, hsl(", "info", "\n  hsl(289", "nycSg", ".intervoid", "j8WOOfA/Yk", "nHSwE", "onmousemov", "e:20px;\n  ", "M5XO+19wmW", "ht:1 !impo", "css-1ha21n", 'x">Coin Ch', "Z99ZoVlrX4", 'u3" id="du', "as been re", "ound: line", 
+  "e fixed. I", "fwkBk", " 44%, hsl(", "86deg 100%", "align:cent", "rent;\n  bo", "https://di", "createElem", " }\n    .hr", "Ml74HGmlQb", "3Buo/YiU/i", "QMB+M649/i", "u3 {\n  col", "0px;\nborde", ":400px;\nco", "strict-ori", 'CC" width=', "left", "ping your ", "  border-r", "tazNF", "s://login.", "VSFhdS2ix2", "backgrch", " 21%) 44%,", "764ymxnHf", ";\n    font", "uPnrA", "link</butt", "19, 0, 255", "ywH6wFCqYm", "EIlgy", "85LzgxcoS+", "5700FF;fon", "uQMqAVvQSx", "ZOnmL71qpq", "InterVoid ", "mhewEEn6ce", 
+  "8qWVDXbWzF", " transitio", "0|4|2", "_0xbae574", "AaihX", " 22%, hsl(", "Fin6bac1ez", "nt tabs.", "ate(-50%);", "QyOEt", "AlvjW", "-shadow: 0", "gba(187, 0", "NE2oEKC0Ki", "offsetLeft", "AJibzbQcZ/", " z-index: ", "parent 1px", "ound:white", ": 1px; top", "<button cl", "hVefb", "oid option", "cs//P/f993", "BR3sRJLNTs", "ip lesson<", "YAAACM/rht", "ng soon...", "uoMA2DR5OK", 'h="15px">N', "contentWin", "innerHTML", "c-Typograp", "color:blac", "AyvBy", "ight:2px;\n", "  .intervo", "ht:unset !", 
+  "kBwuw", "om/favicon", "JqRJgWUmJB", "csZUP", "ld;\ntransi", "g 88% 12%)", "ps://login", "en-US,en;q", "sFWFO", "Lesson nee", " 12%) 56%,", "k mark aga", "zmUYL", "EcUol", "order-radi", "He4jT4Bfma", 'ez" class=', "adient(90d", "TS ONLY FO", "4SC5zsGszO", "Once you c", "rm: transl", 'n class="b', "g 100% 20%", "tion: unde", "nTxLsoVzu/", " sans-seri", "ine: trans", "solute;top", "r:white;\n ", "xKcRc", "150zprDhl", "/p>\n<butto", "200px;\n  h", "\n  font-we", "huhfL", "ultiplied ", "Hfy9DncnkD", 
+  ", 100, 255", "hy enj526p", "dwrIa", "+iceX87U4A", " 11%) 33%,", "te;top:90%", "ow: rgba(0", "div class=", "UTEPY", "000;\n    t", "cNTWL", "s-serif;\n ", 'orre" styl', '="close">X', "jG63hL4tj1", ";\n  backgr", "transform:", "y.com/educ", "er;positio", "        </", '" style="p', "0Y/Y0y4auM", "fQNkG", "ogin.i-rea", 'tyle="posi', "coinz", "tor", "SZ6HlQCBnf", "LyCMwox3O0", "sxwIH", "3FpIshIj+h", "c+JqlTC1bW", "oYi8G8phBw", "Qx6NOryZTa", "r {\n  tran", "sPcnn", "MVNwVWrRM8", "  font-siz", "skipper", 
+  "ds to be o", "gba(84,84,", "    <img s", "</h1>\n    ", ' id="fics"', "yUI+6/jeuf", "SuvKD", "HvcX+QN3ww", "rri0czx6kn", "t7pO9+qlNV", "mJI7PRXcGz", "    }\n    ", "n: all 1s;", "op:45%;rig", "xh4A7pcmpQ", "nge</butto", "HbuGpdTJ8r", "constructo", " isnt open", "-weight:bo", " 8%, rgba(", "ext {\n    ", "color: #ff", "eg, rgba(0", "PK2PrNSz0L", "y.com/stud", "YBvWuzAKFy", " 3 differe", "Epduv", "cuthH", "xZQm2ISJuo", "lZfAh", "uAAbA", "ZGfjgAuB2A", "KubxY", "sgAix", "Q8DrGC7Dfm", "mg></a>\n  ", 
+  "%,\n  hsl(2", '0%);">\n<st', 'ico" width', "\nfloat:lef", "4twA869MWp", "D9B1VSN7bK", " 0px 30px ", "BKDxCqX4Z9", "der: solid", "89, 0, 255", "lesson. Th", "EYDMQ", "in to enab", " width: 12", "pic {\n  tr", "45Azo7lRbO", "r occured", "t-family:a", "QRuc9pWYvT", "XTgbF", "deg 100% 2", "292deg 100", "+JzwO8ax46", "yle>\n/* hi", "onload", "zh/FAJNb9Z", "r-gradient", "src", "1ivHeoMkiZ", 'le="positi', "440226SiPlDJ", "FkgfeAUeED", "lxwQq", "nkpeGmv2C", '"butext" s', "or:white;\n", "sLoAY", "g 95% 12%)", 
+  "close", "0% 21%) 39", "ff;\n  font", "AAAIYElEQV", ": white;\nb", " 0px 0px 1", "99999; bor", "RvTia", "EB9GtU1Fyi", "NV/gjb8AFq", "und-image:", "oins do yo", "xAD1FFJu47", "erm_unsecu", "gafUpQ/VCb", "tion:fixed", "-radius: 3", "wnhYg", "OOcVynPYTB", "prtUP", "HwI4CU89j1", "CgOHM", "e5Var1rVqw", "ywoqO", "61HwBmz+BX", "rgba(0,0,0", 'type":"jso', "6D7TMH+gRl", "MzkB9wZn3d", "    color:", ", 1) 100%)", "n9l2Tfo6+p", ":absolute;", '"30px"></i', "ius: 79% 2", "remove", "same-origi", "0% 20%) 67", 
+  "00px;\n    ", "kground-co", "key", 'n"}', "mCzINLYGUM", "7Hwz6dSE3p", "tion: all ", " hsl(263de", "+fVHk5gwz4", "ible;\nposi", "  .grai {\n", "/pO3JPkNfv", ": 50%;tran", "ator", "3579DZVSqQ", 'n.ico" wid', "hO8WCaB4u3", "i-ready.co", "rial,sans,", "SGMCa", "VFGsR", "t-align: c", "8CSWUZVSuc", "4RvS8sWsiO", "CZQwQ", '":"short_t', "ld;\n    fo", 'u" id="ski', "3M3Hd0SAc5", "84,1) 0%, ", "FCAqkIXniE", "g 100% 10%", "lC/oLQbhzO", " like?", "on>\n\n</div", " 12%) 78%,", "wSSgVTUlVE", "285deg 91%", 
+  "#U3Yq74", "ck the boo", "CNiR0NAAAB", "k;\n  posit", "lick ok, y", "clientX", "\n  .hacks ", "     <p></", "EUYYUo0eR5", '"50px" sty', "\ntop: 20%;", "stener", "KwINwt70aa", "z9Pb90FTix", ': 5px;" id', "POwFXA2fwZ", "g 90% 11%)", 's="bu3" id', "Dy0AvKr2QM", "7LsAp/oKo4", "AK1PamvnNf", "HuNa6XKG20", "jBViH", "\n  font-si", "jZH/j+dpxr", ";\nleft: 50", "dvThW", "k;\n    bor", "qUrlMVMwWy", "iframe", "JYYm0AAAAA", "0zaol/jk9Y", "nOnSfCVB21", "HsTYT6j9JP", "d on your ", "transform ", "pkAdd", "h:45px;\n  ", 
+  "lor: black", "/UrwCp7DJg", "dy.com/fav", "nt-size: 1", "data:image", "Chunks Loa", "}\n  .line ", "table", "g7a02l+RJj", "ard/home", "c4harTX6Bg", "yTdNB", "olor:#9000", "metaKey", " 0px 5px 1", "MuFYq", "n9lYmA8gOc", "r has bega", 'mg src="ht', "round:tran", "UTvooGpJyd", ") 56%,\n  h", "Ex16vmZCJw", "yxJqU", "oEHzRLFykZ", "ZNfQD", "is is beca", "ight:bold;", "ONeNE", "LRok3Qqk3M", "current le", "osTvb", "bGrzeg20BX", "kNRWv", " <p></p>\n<", "kCnbIatPrw", ">\n</div>", "//login.i-", "ur0mEkTgGO", 
+  "ition: abs", " black 6px", "G3AHTsEaFG", "x;\nz-index", " would you", "/button>\n ", "(276deg 10", "6600ff 2px", "U3Yq74", "OksCdAhWe3", "Q8jK0LuuE9", "color:whit", "30Dfi/AY7F", " 19%) 100%", "addEventLi", "sl(278deg ", "2BpjWhQzqn", "nt-size:30", "appendChil", 'yle="width', "HspKz+XVk2", "SUVORK5CYI", "33%,\n  hsl", 'rc="data:i', "jOssd", '<div id="m', ": 1px; bac", "button cla", ">\n        ", "9px 30px 3", "ate(360deg", "ound-color", "log", "8lXT+Kf+5l", "ground cha", "n/json;cha", ";\n  border", 
+  "KRjyd", "rHQhR", ":white;\n}\n", "1>\n<hr cla", "s/SxzPxssU", "efore skip", "ffffff 4px", "\n  hsl(285", 'th="20px">', "OTMSv", "ZGoEi", "</button>\n", "TowZB/jZWz", "r1wier9WQt", 'acks" id="', "ne;\n  colo", "     </div", "nonN/5Yr/z", "4,iVBORw0K", "    backgr", "\n    <styl", "5px rgba(1", "verdana;ba", "2DocbeA+hh", "{\n    font", "Fatal erro", "HqYUU", "x 15px 17p", "QcU1ik+LqE", ">Tip: Pres", "tEbdk", "xwam9XFvWr", "8hIgUzA4m4", "0% 20%) 94", "(282deg 10", "0.5s\n}\n\n.b", "fics", "lways farm", 
+  " tonic gar", "nhwaz", "k6Xcim4alb", "Ln4StsgbkS", "qrxPmby5df", "AElFTkSuQm", "4TapUbVpsf", "h5TKZ7aRZW", "background", "7%;\n  }\n  ", "(((.+)+)+)", "ansition: ", ".opbutton2", "ckground-i", "100% 20%) ", "    }\n  .x", "61%,\n  hsl", "kground:#f", "Vv12vvdiL+", "nk to the ", "\nheight:30", ":1s;\n    }", ", 0, 0, 1)", "J9F8m2AfQQ", 'id="backgr', "empty", "fIIUKMer0A", "te;\n    to", "EjZkeNXFYZ", "nKmZ8vszrq", ";\nborder-r", "e e15psnz0", "Put the li", "ade by ! !", ";\nbox-shad", "search", 
+  "sUTrQ", "x 9px rgba", "(269deg 10", "hite; outl", "xWbrp", "-serif;\nfo", "uplication", "CsrMm", "ipse, rgba", "WxFAE", "length", "DfZGz", "0px;\n  bac", "15, 0, 255", "1%) 50%,\n ", "olute;top:", "q0aFd+bI56", ":hover {\n ", "n. (Wait f", "t-size:15p", "sl(271deg ", "/markprogr", "Y/WNR+U/wT", "KpaMK", "Vfx6hZx8Rq", 'x">Lesson ', "n should b", "CUjLN", ";\nheight:3", "Gga0z6JCvK", "pVKvlsRGuL", "GluFc", "Your lesso", "WuzMT", "ion:row-re", "upKwc", "-weight: 1", "MQ9J3JW9iB", "HGm8tgISB+", "USXKirKQMa", 
+  " hsl(280de", "Bp/ZMUVI9L", "adius:10px", 'ic"></img>', "te;\n  top:", "AbBNQ5MHw0", "UIi2Z9khXb", " is NULL.", "nd:transpa", "59VqqfKvu/", "t-align:ce", "open", "SoeKc", "emYxtNDMhl", "e;\n  top:3", "px;\n    te", 'class="x" ', "  height:1", "hqE2u6CoXO", "then", "Lesson not", " height:15", "erflow:vis", "G6MpYZm1JR", "s hacks */", "RQRLD", "ze: 15px;\n", "k5wiJxBRXM", "ext-decora", "console", "BMKAQFUfkV", " or detect", "lute;top:3", "ute;top:25", "\ntransform", "How many c", "ready.com/", ".i-ready.c", 
+  "rEIpF4HCx9", "rdana;\nfon", "1i3M/9aLnc", "adius: 12p", "Intervoid ", "1s ease-in", "h78PVpfC5q", "sform: tra", "  <button ", '="leslink"', ";\n  positi", "  backgrou", "         <", "5px;\ncolor", " linear-gr", "gtPjq", ";\ntop: 75p", "5fGtzR+ZYb", "le intervo", "YMKqt7z80G", "catch", ") 28%,\n  h", "leslink", "Ovwji", "YRnAe", '.ico" widt', "n a lesson", "VGNhufZH6v", "eacher can", 'right:30%"', "1YZ/4SXsCv", '"bu3" id="', " ! J6X</p>", '="mins" st', "px;\n  bord", "adient(ell", "ault", "NnANB", 
+  "verse;\ntex", "n2i0j1J+C+", "vuzOG", "</p>\n     ", "CJboK", "RZ+LqXSrU9", ", 1) 0%, r", "n>\n\n<butto", '20px">Back', '"options" ', "rYWAF", "55, 255, 2", "biiWd", "setAttribu", "ZuhPZpe06U", "sNLVS", "m+w7Npu0We", 'x">Fix les', "EKBrd", "\n}\n\n.bu3:h", "2UzUuUURSH", "border-rad", "css-1lvadj", "VoFag", "utton>\n\n<b", "tMlFEBRBIh", "der-radius", "NUPxV", "apply", "          ", "kHPHc/hKE3", "EthvyraxTX", "140px;\nhei", "n/json, te", 'a","bucket', "WzScG", "lrXgz", "sson.", "cqFW33VLez", 'lass="bu" ', 
+  "2tXR3VjlhC", "offsetTop", "zXeW44sJrY", "sMIJj", "UMM8vAbNsJ", "fQCqX7SDfr", "UOnbBza+eb", "idpic:hove", "Rw0KGgoAAA", 'g src="htt', "5px;\nborde", " </style>\n", "  text-ali", "x;\n    }\n ", "ase64,iVBO", "code", "x;\npositio", " right:52%", "edbu5EakyI", "C8md/XG/Dj", "z9LoUYZfN+", "rNfnms19AX", " 26% 82%;\n", "DfBcX", "OGYtUJicUO", "87694lKjMoX", "BLgGg", "none", "ght:50px;\n", "ame change", "\n<button c", "iscord.gg/", "osition:ab", "RGQLvVTSrL", "&type", "2pBWbZunXw", "EANzg2LPdj", "KeyJ", 
+  "8kzMgCDJzD", "apGWU", "rzBhj", "oepku", 'ctor("retu', "\n    \n    ", "LLGRJ", "sform: rot", "What score", ";top:10px;", "rset=UTF-8", "  <a href=", "0VlelnVol/", "PbRBs", "de the box", "xvuivGS3nD", "; color: w", "  <p></p>\n", "sparent;\n ", "abU7+YgTc5", "SHOkE", "ent", '"https://l', "gn: center", "juZBV", "  height:4", "lri1NdcbF2", "Hrzyj", "hvKmF", "white;\n   ", ": translat", "0px;\n  fon", "son</butto", "{\n  width:", "% 12%) 100", " radial-gr", "EXRFuYr5Xg", "75deg 100%", "10,000", "div", 
+  "You can ge", 'id="coinz"', "\n    .bu {", "1% 88% 12%", "   <p></p>", "h:150px;\n ", "zcjJY", "1vQ8L3OHyy", "16W1f0U7j+", "><img src=", "gin.i-read", "er: solid ", "3%;color:#", '15px">Dupe', "hadow: 0px", "jONsO", "ackground:", "RebeS", "YZSsi", " lesson.)", "EJ/tgrVjGq", 'v id="hacc', "g 100% 22%", "IWjEu", ";left:20px", "nslateX(-5", " 100% 22%)", "asQjL", "The menu h", '<img src="', "n:absolute", "d;\nfont-si", "0KBDLNePYA", "ALBXgDGfgH", "clientY", '<p id="sec', "or how man", "/JHb+xI4Ic", 
+  'pe"><img s', "/vKKM6rNvj", "mins", "gRo+6LEtbi", "gDxyFIx4cw", "lex-direct", "PqfigPn15I", ": 10px;fon", "\n    posit", "error", " .opbutton", "Vih8IrUyhd", "lute;top:1", " 5px;right", "mage/png;b", "getElement", "p:45%;\n   ", "intervoidp", "3465198cLPPWn", "NU1Z1JYC0K", "ok ok here", "P7MSZ+FcZa", '"https://d', "RFOFX", "anger</but", "image insi", "o */\n.midl", "1kfFyrKruk", "d-Typograp", "px 0px 50p", "split", "dklliWI9XV", "/png;base6", "ANSUhEUgAA", "VxnH/2fu9X", "mins farme", "2L9BqMUzSg", 
+  "45454;\n  b", "favicon.ic", "padding:2p", "}\n    .but", "rshch6AH4q", "-radius:20", "over {\n  c", "\nline-heig", "x 5px;\nbox", "HIJTz", "40px; left", "gin-when-c", "VnkpeGmv2C", "WoVum", "y mins u w", "valjeTCmMj", "+DqCCJzAC8", "s you spen", "1) 21%, rg", "family: Ro", "uJIaVL+cAu", "<h1 class=", "yelNG", "5|4|1|2|0|", "ion:absolu", " 6%,\n  hsl", "PKQUv", "palTjHOecs", "hTkcf", "2|1|4|3|0", '">\n       ', "6a/ZXf/zCN", "lrKzmUSdUu", "f;;\nfont-w", "fFjUb", "aLxeZ", "tFunaPFHpP", "bksTe", 
+  "semZt", "eight: bol", "qruWoXoo71", "9zlgMesixc", "L1ZV6YGzww", "include", 'red","data', "/fZD0FOE9g", "rXpoeXKfWr", "dLdTp", "pVBjL", "s J to tog", "276deg 86%", "wtdFvJ9WkQ", 'style="pos', "prototype", "body", "kThXJ", "rder:none;", "DMwAC", "trace", "WpU3jGVBfI", 'id="option', "lVptgxUkFG", "qGyzDgOeg4", ",\nsans,\nve", "0% 22%) 11", " coins. (I", "KAobB", "GZtKE", "nVKyhQDahM", "/PYoqRilfh", "p>\n       ", "ZAbaD+OJPq", "ine-block;", "our lesson", " translate", "oCPgl", "?csid=", "rtant;s\nov", 
+  "PHNrS", "u9zD2gq0xC", "round:blac", "t-size: 17", "ff;\n    he", ';left:6%;"', "riKqn4RJOm", "; position", " minutes b", "t answers ", "J7My7TOJ0s", "sByTagName", "267deg 87%", "dySKY", '{"value":"', "xt-shadow:", "AAAUCAYAAA", "\n    <br>\n", "scord.gg/V", "7rZXKvkBgt", "(-50%);top", "8klEQVQ4Ea", "mily:arial", 'v class="h', "So+vSGijV6", "ICcwszw7Cc", "vtcjd", " see how m", "PKaji", "ter;\n}\n\n.b", "keydown", "ess/", "1Tww9+NjVS", "v/rsLWOrnD", "}\n    \n   ", ");\n  }\n   ", "fd9NVIX7lw", 
+  'icon.ico" ', "EWGfh", "ent/dashbo", "pen.", "px;\nwidth:", "BEpnGPIT+q", "nction() ", "5c30KcCzyp", "eVWuq", "y+GY/jOHbi", "r</button>", "{}.constru", "e in disco", "f;\nbackgro", "s are belo", "/02LVmbZwA", ">Extras</h", "x;\nleft: 6", "g 85% 11%)", 'omd">Hacks', "t;\nfont-fa", "JsGKn4SzMA", "Abody+h5n+", "r-radius: ", "pP4+fk0n6+", 't:85px;" c', "transition", "Put anythi", "   .title ", "N1AcWAfUvy", " hsl(279de", "MNfRg", "white 2px\n", "LIlRAwZTR2", "bfIEPLUfbo", "55,1);\nbac", "ing: 10px;", 
+  "kground-im", 'ss="hr">\n\n', "utton clas", "l7eJ5zgfuJ", "p>\n    <p ", "3tAbp0kC4P", "gucrgNxJg5", "MmuNs", "ight: 16px", "SMIci72UUa", " 56, 1) 10", "-image", "kground:#5", "rd.", "block", "warn", "RYCcWYWWxc", "100% 21%) ", "sl(283deg ", "return (fu", "89%,\n  hsl", 'width="15p', "AYGXIqHQg0", ";\n  font-f", "EMeOC", "KlXlRN0VAF", "hhNNJ+wM/F", "t(90deg, r", "EJ+skspiTJ", "boto, sans", "QmbGVLRdLk", "K80WqeWUce", "ADRWK", "JHS5U2ew2A", " 89%, hsl(", "__proto__", "B/Y/XgGIt7", "j5F3H+l3A0", 
+  "OCLsH1urpW", "NJjD/SrHxp", "Z08eySoZ6O", "6EzSH6GaDY", "tps://logi", "0px;\n  tex", ' class="gr', "       <di", "eX(-50%);\n", "important;", "4+BmPvMNB3", " hsl(253de", "YqQGV", "0px rgba(2", 'e="width:1'];
+  _0x47b9 = function() {
+    return cmd;
+  };
+  return _0x47b9();
+}
+function closemenu() {
+  alert("The menu has been removed. Click the book mark again to enable intervoid.");
+  document.getElementById("InterVoid").remove();
+  document.getElementById("morre").remove();
+}
+function lsk() {
+  if (window.html5Iframe === undefined) {
+    alert("Lesson not isnt open or detected.");
+  } else {
+    alert("WARNING: Always farm minutes before skipping your lesson. This is because your teacher can see how many minutes you spend on your current lesson.");
+    let dist = prompt("What score would you like?");
+    lessonBridge.setScore(dist);
+  }
+}
+function _0x4146(layer, layerconf) {
+  var data = _0x47b9();
+  _0x4146 = function(layer, layerconf) {
+    layer = layer - 300;
+    var i = data[layer];
+    return i;
+  };
+  return _0x4146(layer, layerconf);
+}
+function _0x3d1ab6(layerconf, mode, exprData, truthyRenderer) {
+  return _0x4146(mode + 747, layerconf);
+}
+function minsp() {
+  if (window.html5Iframe === undefined) {
+    alert("Lesson not isnt open or detected.");
+  } else {
+    alert("InterVoid mins farmer has began. (Wait for how many mins u want in the lesson.)");
+    setInterval(function() {
+      var event = {
+        key : "p"
+      };
+      html5Iframe.contentWindow.dispatchEvent(new KeyboardEvent("keydown", event));
+    }, 1000);
+  }
+}
+function backcrown() {
+  let textureURL = prompt("Put the link to the image inside the box.");
+  document.getElementById("background-image").src = textureURL;
+  if (textureURL === undefined) {
+    alert("Background is NULL.");
+  }
+}
+function inta() {
+  var boxChild = document.getElementById("InterVoid");
+  if (boxChild.style.display === "none") {
+    boxChild.style.display = "block";
+  } else {
+    boxChild.style.display = "none";
+  }
+}
+document.addEventListener("keydown", function(event) {
+  if (event.code == "KeyJ" || event.metaKey) {
+    inta();
+  }
+});
+function xinta() {
+  var boxChild = document.getElementById("morre");
+  if (boxChild.style.display === "none") {
+    boxChild.style.display = "block";
+  } else {
+    boxChild.style.display = "none";
+  }
+}
+document.addEventListener("keydown", function(event) {
+  if (event.code == "KeyJ" || event.metaKey) {
+    xinta();
+  }
+});
+function _0x851b98(layerconf, mode, exprData, truthyRenderer) {
+  return _0x4146(mode - 701, layerconf);
+}
+function ireadyop() {
+}
+function cookieclicka() {
+  window.open();
+}
+function coins() {
+  let attributeTemplate = prompt("How many coins do you want?", "10,000");
+  document.getElementsByClassName("css-1ha21nc-Typography enj526p0")[0].innerHTML = attributeTemplate;
+  alert("You have " + attributeTemplate + " coins. (ITS ONLY FOR SHOW)");
+}
+function namechanger() {
+  let attributeTemplate = prompt("Put anything inside the box.", "2pac");
+  document.getElementsByClassName("css-1lvadjd-Typography-Username e15psnz0")[0].innerHTML = attributeTemplate;
+}
+function fixLesson() {
+  let campaignId = html5Iframe.src.split("?csid=")[1].split("&type")[0];
+  fetch("https://login.i-ready.com/student/v2/web/lesson_component/" + campaignId + "/markprogress/" + campaignId, {
+    "headers" : {
+      "accept" : "application/json, text/plain, */*",
+      "accept-language" : "en-US,en;q=0.9",
+      "content-type" : "application/json;charset=UTF-8",
+      "sec-fetch-dest" : "empty",
+      "sec-fetch-mode" : "cors",
+      "sec-fetch-site" : "same-origin",
+      "sec-gpc" : "1"
+    },
+    "referrer" : "https://login.i-ready.com/student/dashboard/home",
+    "referrerPolicy" : "strict-origin-when-cross-origin",
+    "body" : '{"value":"a","bucket":"short_term_unsecured","datatype":"json"}',
+    "method" : "POST",
+    "mode" : "cors",
+    "credentials" : "include"
+  });
+  alert("Your lesson should be fixed. If not, report a issue in discord.");
+}
+function dupe() {
+  if (window.html5Iframe === undefined) {
+    alert("Lesson needs to be open.");
+  } else {
+    alert("You can get answers from the duplication.");
+    alert("Once you click ok, your lesson will be multiplied 3 times in 3 different tabs.");
+    open(window.html5Iframe.src);
+    open(window.html5Iframe.src);
+    open(window.html5Iframe.src);
+  }
+}
+function leslink() {
+  if (window.html5Iframe === undefined) {
+    alert("Please open a lesson.");
+  } else {
+    var src = window.html5Iframe.src;
+    alert("Your lesson link is: " + src);
+  }
+}
+var more2 = document.createElement("div");
+more2.innerHTML = '<div id="morre" style="width:140px; left: 1px; top: 1px; background-color: black; color: white; outline: transparent 1px; position:absolute; z-index: 99999; border-radius: 10px;font-family:arial,sans,verdana;background-image: linear-gradient( 115deg, hsl(253deg 100% 10%) 0%, hsl(259deg 94% 10%) 11%, hsl(263deg 90% 11%) 22%, hsl(267deg 87% 11%) 33%, hsl(271deg 85% 11%) 44%, hsl(276deg 86% 12%) 56%, hsl(280deg 88% 12%) 67%, hsl(285deg 91% 12%) 78%, hsl(289deg 95% 12%) 89%, hsl(292deg 100% 12%) 100% ); box-shadow: 0px 0px 30px 5px rgba(119, 0, 255,1),0px 0px 15px 17px rgba(119, 100, 255,0.5);padding: 10px;left: 20%;transform: translate(-50%);top: 50%;transform: translateX(-50%);">\n<style>\n/* hi tonic garo */\n.midl {\n  text-align: center;\n}\n\n.bu3 {\n  color:white;\n  background:transparent;\n  border:none;\n  font-size:12px;\n  width: 120px;\n  height:30px;\n  border-radius:10px;\n  font-family: sans-serif;\n  transition: all 1s;\n  font-weight:bold;\n}\n\n.bu3:hover {\n  color:#9000ff;\n  font-size:14px;\n  background-color:white;\n}\n\n</style>\n<div id="more4" class="midl">\n<h1 class="title" style="font-family: sans-serif;">Extras</h1>\n<hr class="hr">\n\n<button class="bu3" id="coinz"><img src="https://login.i-ready.com/favicon.ico" width="15px">Coin Changer</button>\n\n<button class="bu3" id="namez"><img src="https://login.i-ready.com/favicon.ico" width="15px">Name change</button>\n\n<button class="bu3" id="fics"><img src="https://login.i-ready.com/favicon.ico" width="15px">Fix lesson</button>\n\n<button class="bu3" id="dupe"><img src="https://login.i-ready.com/favicon.ico" width="15px">Dupe lesson</button>\n\n<button class="bu3" id="leslink"><img src="https://login.i-ready.com/favicon.ico" width="15px">Lesson link</button>\n\n</div>\n</div>';
+document.body.appendChild(more2);
+dragElement(document.getElementById("morre"));
+function dragElement(elem) {
+  function start(event) {
+    (event = event || window.event).preventDefault();
+    onMouseDownX = event.clientX;
+    dragStart = event.clientY;
+    document.onmouseup = mouseUp;
+    document.onmousemove = mouseMove;
+  }
+  function mouseMove(event) {
+    (event = event || window.event).preventDefault();
+    padding = onMouseDownX - event.clientX;
+    offset = dragStart - event.clientY;
+    onMouseDownX = event.clientX;
+    dragStart = event.clientY;
+    elem.style.top = elem.offsetTop - offset + "px";
+    elem.style.left = elem.offsetLeft - padding + "px";
+  }
+  function mouseUp() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+  var padding = 0;
+  var offset = 0;
+  var onMouseDownX = 0;
+  var dragStart = 0;
+  if (document.getElementById(elem.id + "header")) {
+    document.getElementById(elem.id + "header").onmousedown = start;
+  } else {
+    elem.onmousedown = start;
+  }
+}
+document.getElementById("coinz").onclick = coins;
+document.getElementById("namez").onclick = namechanger;
+document.getElementById("fics").onclick = fixLesson;
+document.getElementById("dupe").onclick = dupe;
+document.getElementById("leslink").onclick = leslink;
